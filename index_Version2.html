@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Welcome page</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div class="container">
+        <h1>Welcome to the webpage, Ahiri Basu!</h1>
+        <p class="quote">Here's a quote for you: "The only way to do great work is to love what you do." - Steve Jobs</p>
+
+        <div class="rocket" aria-hidden="true">
+          <!-- Simple rocket SVG (inline so the page is self-contained) -->
+          <svg viewBox="0 0 512 512" width="220" height="220" role="img" aria-label="rocket">
+            <g fill="none" stroke="none">
+              <path d="M388 36c20 0 40 10 53 26 70 84-46 239-132 324s-240 205-324 132C-6 393 65 160 149 90 163 77 183 67 204 67 257 67 312 61 388 36z" fill="#e91e63"/>
+            </g>
+            <!-- This is a simplified colored shape — replace with a full rocket SVG if you want more detail -->
+            <circle cx="290" cy="150" r="36" fill="#cfe9ff" />
+            <ellipse cx="360" cy="380" rx="36" ry="60" fill="#ff8a50" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="container">
+        <h2>Containerized Python API</h2>
+        <p class="lead">
+          This is a containerized application that exposes a JSON API using
+          <a href="#" class="link">FastAPI</a> with
+          <a href="#" class="link">Azure</a>!
+        </p>
+
+        <p>
+          Use the buttons below to make use of the interactive (OpenAPI) documentation
+          for trying out the API dynamically, or browse the project source.
+        </p>
+
+        <div class="buttons">
+          <a class="btn" href="#" role="button">Try it out</a>
+          <a class="btn btn-outline" href="#" role="button">Project source</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
